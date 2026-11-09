@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathyajith | Python Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">S<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Sathyajith <span>S.</span></h1>
+        <h2>Python Full Stack Developer</h2>
+        <p class="hero-description">I enjoy building clean, useful and user-friendly web applications with Python and modern web technologies.</p>
+        <div class="hero-buttons">
+          <a class="btn primary-btn" href="#projects">View My Work</a>
+          <a class="btn outline-btn" href="#contact">Contact Me</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/sathyajith-s-668467382?utm_source=share_via&utm_content=profile&utm_medium=member_android/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-card reveal">
+          <div class="profile-mark">
+    <img src="WhatsApp Image 2026-11-09 at 1.35.37 PM.jpeg" alt="Sathyajith's profile photo">
+</div>
+          <div>
+            <h3>Python Full Stack Developer</h3>
+            <p>I am learning and developing my skills in Python, front-end development and database technologies. I enjoy solving problems and turning ideas into practical applications.</p>
+            <div class="about-details">
+              <p><strong>Name:</strong> Sathyajith</p>
+              <p><strong>Focus:</strong> Full Stack Development</p>
+              <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Python, Django, SQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span>🐍</span><h3>Python</h3><p>Programming fundamentals</p></article>
+          <article class="skill-card reveal"><span>🌐</span><h3>HTML</h3><p>Web page structure</p></article>
+          <article class="skill-card reveal"><span>🎨</span><h3>CSS</h3><p>Responsive styling</p></article>
+          <article class="skill-card reveal"><span>⚡</span><h3>JavaScript</h3><p>Interactive web pages</p></article>
+          <article class="skill-card reveal"><span>🚀</span><h3>Django</h3><p>Python web framework</p></article>
+          <article class="skill-card reveal"><span>🗄️</span><h3>SQL</h3><p>Database fundamentals</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-icon">🧮</div>
+            <h3>Python Calculator</h3>
+            <p>A beginner-friendly calculator project built to practise Python logic and calculations.</p>
+            <p class="tech">Python · Streamlit</p>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-icon">🎓</div>
+            <h3>Student Management System</h3>
+            <p>A role-based student system concept for managing profiles, attendance and academic records.</p>
+            <p class="tech">Python · JSON · HTML · CSS</p>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-icon">📊</div>
+            <h3>Sales Report System</h3>
+            <p>A file-processing project that calculates sales revenue and creates a JSON report from CSV data.</p>
+            <p class="tech">Python · CSV · JSON</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-card reveal">
+          <div class="contact-info">
+            <h3>Have a project or opportunity?</h3>
+            <p>Feel free to reach out. Replace the sample details with your real contact information.</p>
+            <p><strong>Email:</strong> <a href="mailto:sathyajithofficial1@gmail.com">sathyajithofficial1@gmail.com</a></p>
+            <p><strong>Location:</strong> Kerala, India</p>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <label for="visitorName">Your name</label>
+            <input id="visitorName" type="text" placeholder="Enter your name" required>
+            <label for="visitorEmail">Your email</label>
+            <input id="visitorEmail" type="email" placeholder="Enter your email" required>
+            <label for="visitorMessage">Message</label>
+            <textarea id="visitorMessage" rows="4" placeholder="Write your message" required></textarea>
+            <button class="btn primary-btn" type="submit">Send Message</button>
+            <p class="form-note">Meet you Soon.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Sathyajith. Built with HTML, CSS & JavaScript.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <!-- JavaScript is included here, so a separate script.js file is not needed. -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", function () {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", isOpen);
+      menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+
+    document.querySelectorAll(".nav-link").forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.textContent = "☰";
+      });
+    });
+
+    const contactForm = document.getElementById("contactForm");
+    contactForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      const visitorName = document.getElementById("visitorName").value.trim();
+      alert("Thank you, " + visitorName + "! Your demo message was received.");
+      contactForm.reset();
+    });
+
+    const revealItems = document.querySelectorAll(".reveal");
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealItems.forEach(function (item) { observer.observe(item); });
+    } else {
+      revealItems.forEach(function (item) { item.classList.add("show"); });
+    }
+
+    const sections = document.querySelectorAll("main section[id]");
+    const navigationLinks = document.querySelectorAll(".nav-link");
+    window.addEventListener("scroll", function () {
+      let currentSection = "home";
+      sections.forEach(function (section) {
+        if (window.scrollY >= section.offsetTop - 130) {
+          currentSection = section.getAttribute("id");
+        }
+      });
+      navigationLinks.forEach(function (link) {
+        link.classList.toggle("active", link.getAttribute("href") === "#" + currentSection);
+      });
+    });
+  </script>
+</body>
+</html>
